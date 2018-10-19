@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1
+
+
+php_value memory_limit 50M
+php_value post_max_size 100M
+php_value upload_max_filesize 50M
+
+
