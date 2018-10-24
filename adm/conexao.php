@@ -10,7 +10,7 @@
 	 
 	if (!$conectar) {	
 		echo "Seu banco de dados não está configurado ainda.  Clique aqui para ";
-		echo "<a href='setup.php'>Configurar</a>";
+		echo "<a href='adm/setup.php'>Configurar</a>";
 		die();
 	}
 
