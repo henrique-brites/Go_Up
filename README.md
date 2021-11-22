@@ -13,13 +13,13 @@ Before starting, you will need to have the following tools installed on your mac
 [Git](https://git-scm.com), [PHP](https://www.php.net/), [Apache](https://www.apache.org/). 
 Besides, it's nice to have an editor to work with code like [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Rodando o projeto
+### 🎲 Running the project
 
 ```bash
 # Clone this repository into your Apache folder
 $ git clone <https://github.com/henrique-brites/Go_Up>
 
-# Acesse o projeto no navegador
+# Access the project in the browser
 $ http://localhost/Go_Up
 
 # The first time the project is accessed, you will be asked for the database credentials to configure the system
